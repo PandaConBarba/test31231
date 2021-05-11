@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron & MySQL</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<h1 align="center"> Agregar Miembros</h1>
+</head>
+
+<body>
+
+  <main class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-md-6 p-4 my-auto">
+
+        <!-- Miembros Form -->
+        <form id="memberForm" class="card card-body">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Nombre" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" id="lname" placeholder="Apellido" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" id="codigo"  placeholder="Codigo" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" id="cargo"  placeholder="Posicion" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" id="sexo"  placeholder="Sexo" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text"  id="fechai"  placeholder="Fecha ingreso" class="form-control">
+          </div>
+          <div class="form-group">
+            <textarea type="text" id="direccion" rows="3" placeholder="Direccion" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Guardar
+          </button>
+        </form>
+
+      </div>
+
+  
+  </main>
+
+  <script src="./app.js" type="module"></script>
+  <script src="../main.js"></script>
+
+
+
+</body>
+
+</html>
